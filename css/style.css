@@ -1,0 +1,219 @@
+footer {
+    width: 100%;
+    background: grey;
+    color: white;
+    text-align: center;
+    position: absolute;
+    
+    height: 57px;
+    border-top: 10px solid #4aaaa5;
+    z-index: 100000000000;
+}
+html, body {
+    height: 95%;
+    margin: 0;
+  }
+  .wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: 57px;
+  }
+  .footer,
+  .push {
+    height: 57px;
+  }
+
+Body {
+    background-image: url("../images/background.jpg");
+}
+.ConnectPanel {
+    background-color: white;
+    width: 268px;
+    height: 198px;
+    right: -312px;
+    top: 0;
+    position: absolute;
+    border: 1px #dddddd solid;
+    text-align: center;
+}
+.ConnectIcon {
+    width: 68px;
+    margin-top: 20px;
+}
+h1 {
+    background: #4aaaa5;
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    z-index: 2;
+    top: 0px;
+    position: fixed;
+    left: 107px;
+    padding: 20px 0px 20px 0px;
+    font-size: 32px;
+    /* I had issues getting this to line up perfectly There may be a margin or padding somewhere so that all the elemetns are not using the same coordinates for their origin.
+*/
+}
+a {
+    color: grey;
+    text-decoration: inherit;
+}
+.HeaderBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 100%;
+    height: 75px;
+    z-index: 1;
+    border-bottom: #cccccc 2px solid;
+}
+.NavLinkHolder {
+    z-index: 3;
+    width: 350px;
+    left: 710px;
+    position: fixed;
+    font-size: 12pt;
+    height: 75px;
+    top: 10px;
+}
+.NavLinks {
+    position: relative;
+    height: 30px;
+    margin: 10px 0 10px 0;
+    padding: 0 10px 0 10px;
+    top: 5px;
+    float: right;
+    z-index: 2;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    /* background: orange; */
+    
+    font-size: 15pt;
+}
+
+form {
+    margin-top: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+input {
+    margin: 10px 10px 10px 0;
+}
+input[placeholder] {
+    text-indent: 10px;
+}
+input[type='text'] {
+    width: 590px;
+}
+input[type="submit"] {
+    background: #4aaaa5;
+    color: white;
+    border: 0px;
+    height: 40px;
+    width: 100px;
+    margin: -5px 0 0 0;
+}
+textarea {
+    margin-top: 10px;
+    width: 590px;
+}
+.row {
+    width: 960px;
+    left: 15%;
+}
+.PrimaryPanel {
+    background: #ffffff;
+    height: 600px;
+    width: 648.02px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    border: 1px #dddddd solid;
+}
+.PortfolioPrimaryPanel {
+    background: #ffffff;
+    height: 800px;
+    width: 648.02px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    border: 1px #dddddd solid;
+}
+.ParagraphText {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding: 10px 10px 0 10px;
+    text-align: left;
+    /* text-indent: 10px; It would look better with an indent but there is none of the homework*/
+}
+.ContactForm {
+    text-align: left;
+    position: absolute;
+    float: left;
+}
+.HeadersTextPanel {
+    color: #4aaaa5;
+    font-size: 20pt;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 28px;
+}
+.PanelContent {
+    border-top: 2px grey solid;
+    margin: 28px;
+    text-align: center;
+}
+.ConnectContent {
+    border-top: 2px grey solid;
+    margin: 0px 28px 0 28px;
+}
+ .FooterPadding {
+    padding: 20px;
+}
+.BorderBuddy {
+    Border-right: 1px solid grey;
+    Border-left: 1px solid grey;
+}
+.gucci {
+    width: 250px;
+    float: left;
+    margin: 10px;
+}
+.PortfolioL {
+    width: 275px;
+    z-index: 2;
+}
+.PortfolioR {
+    width: 275px;
+    z-index: 2;
+}
+.ExamplePort {
+    background: #4aaaa5;
+    height: 60px;
+    width: 275px;
+    z-index: 3;
+    position: relative;
+    top: 198px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.PorQueDiosL , .PorQueDiosR {
+	margin: -30px 0 0 0;
+	z-index: 2;
+	width: 275px;
+}
+.PorQueDiosL {
+    float: left;
+}
+.PorQueDiosR {
+    float: right;
+}
+.centered {
+    padding: 22.5px;
+}
+.WhyDoesntTheStrongTagWork {
+    font-weight: bold;
+}
