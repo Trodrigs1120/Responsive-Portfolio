@@ -217,3 +217,57 @@ textarea {
 .WhyDoesntTheStrongTagWork {
     font-weight: bold;
 }
+@media screen and (max-width: 980px){
+    body {
+        
+    }
+
+}
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width:640px){
+    .HeaderBar{
+        position: static;
+        top: 0px;
+        width: 640px;
+    }
+    h1{
+        position: static;
+        top:0px;
+    }
+    .PrimaryPanel {
+  left: 25px;
+  width: 300px;
+  height:910px;
+  }
+  .PanelContent{
+    height: 590px;
+  }
+    .row{
+        width:300px;
+    }
+    input {
+        margin: 10px 10px 10px 0;
+    }
+    input[placeholder] {
+        text-indent: 10px;
+    }
+    input[type='text'] {
+        width: 240px;
+    }
+ .Message{
+     width: 240px;
+     height: 600px;
+ }
+
+ .ConnectPanel{
+    left: 310px;
+    width: 240px;
+}
+.ConnectIcon{
+    width: 50px;
+}
+
+}
