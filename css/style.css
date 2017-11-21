@@ -156,14 +156,14 @@ textarea {
     position: absolute;
     float: left;
 }
-.HeadersTextPanel {
+.HeadersTextPanel, #ConnectHeaderText {
     color: #4aaaa5;
     font-size: 20pt;
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin: 28px;
 }
 .PanelContent {
-    border-top: 2px grey solid;
+    border-top: 2px  #e6e6e6 solid;
     margin: 28px;
     text-align: center;
 }
@@ -175,8 +175,8 @@ textarea {
     padding: 20px;
 }
 .BorderBuddy {
-    Border-right: 1px solid grey;
-    Border-left: 1px solid grey;
+    Border-right: 1px solid #e6e6e6;
+    Border-left: 1px solid #e6e6e6;
 }
 .gucci {
     width: 250px;
@@ -218,13 +218,91 @@ textarea {
     font-weight: bold;
 }
 @media screen and (max-width: 980px){
-    body {
-        
+    .HeaderBar{
+        position: static;
+        top: 0px;
+        width: 980px;
     }
+    h1{
+        position: fixed;
+        top:0px;
+        left: 75px;
+    }
+    .PrimaryPanel {
+  left: 75px;
+  width: 350px;
+  height:600px;
+  margin: 0 0 50px 0;
+  top: 30px;      
+  }
+  #ConnectHeaderText{
+      font-size: 14pt;
+      font-weight: bold;
+
+  }
+  .PanelContent{
+    height: 590px;
+
+  }
+    .row{
+        width:300px;
+    }
+    input {
+        margin: 10px 10px 10px 0;
+    }
+    input[placeholder] {
+        text-indent: 10px;
+    }
+    input[type='text'] {
+        width: 240px;
+    }
+ .Message{
+     width: 240px;
+     height: 600px;
+     height: 165;
+ }
+
+ .ConnectPanel{
+    left: 390px;
+    width: 225px;
+}
+.ConnectIcon{
+    width: 50px;
+    height:50px;
+}
+.PorQueDiosR{
+    float: left;
+}
+.PortfolioPrimaryPanel {
+    left: 25px;
+    width: 300px;
+    height:1250px;
+    }
+    .PortfolioR, .PortfolioL{
+        width: 250px;
+        margin:  0 35px 10px 0;
+    }
+        .ExamplePort{
+    width: 250px;
+    top: 180px;
+    }
+.NavLinkHolder{
+    position: absolute;
+    left:  390px;
+
+}  
+.HeadersTextPanel{
+    font-size: 20pt;
+    font-weight: bold;
+}
 
 }
 @media screen and (max-width: 768px){
-
+    .HeaderBar{
+        position: static;
+        top: 0px;
+        width: 640px;
+    }
 }
 
 @media screen and (max-width:640px){
