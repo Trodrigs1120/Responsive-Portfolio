@@ -161,16 +161,19 @@ textarea {
     font-size: 20pt;
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin: 28px;
+    
 }
 .PanelContent , .ConnectPanelContent{
     border-top: 2px  #e6e6e6 solid;
     margin: 28px;
     text-align: center;
 }
+/*If you want to move the connect border look here */
 .ConnectContent {
     border-top: 2px grey solid;
     margin: 0px 28px 0 28px;
 }
+
  .FooterPadding {
     padding: 20px;
 }
@@ -246,11 +249,10 @@ textarea {
     
   }
 
-.gucci {
+    .gucci {
     width: 320px;
     float: left;
-    margin: 10px;
-}
+    margin: 10px;}
     .row{
         width:300px;
     }
@@ -273,14 +275,15 @@ textarea {
     left: 455px;
     width: 225px;
 }
-.ConnectIcon{
+    .ConnectIcon{
     width: 50px;
     height:50px;
-}
-.PorQueDiosR{
+    }
+
+    .PorQueDiosR{
     float: left;
-}
-.PortfolioPrimaryPanel {
+    }
+    .PortfolioPrimaryPanel {
     left: 25px;
     width: 420px;
     height:1250px;
@@ -310,6 +313,165 @@ textarea {
         top: 0px;
         width: 768px;
     }
+    h1{
+        position: relative;
+        top:0px;
+        left: 20px;
+     
+    }
+    .NavLinkHolder{
+        
+        left: 380px;
+        top: 10px;
+        height: 50px;
+      
+        background: white;
+        
+    } 
+   .HeaderPanel{
+    top: -5px;
+    position: absolute;
+    width: 710px;
+   }
+    /* .NavLinks{
+        left: 0px;
+        position: relative;
+        float: right;
+        padding: 10px 60px 0 75px;
+    } */
+    .ExtraPadding{
+        padding: 10px 60px 0 70px;
+    }
+    /* .BorderBuddy{
+    padding: 10px 70px 0 70px;
+    border-right: 1px #e6e6e6 solid;
+    border-left: 1px #e6e6e6 solid;
+    } */
+    .PrimaryPanel, .ContactPrimaryPanel {
+  left: 10px;
+  width: 710px;
+  height: 515px;
+  margin: 0 10px 50px 10px;
+  /* top: 125px; */
+ 
+
+  }
+
+  .PanelContent , .ConnectPanelContent{
+    height: 120px;
+    bottom: 260px;
+    z-index: 10;
+    
+  
+
+  }
+  .ParagraphText{
+      
+    line-height: 120%;
+  }
+  .ConnectPanelContent{
+    position: relative;
+    bottom: -30px;
+  }
+  /*I have this but I dont actually see myself using it anywhere? */
+  #ConnectHeaderText{
+    text-align: left;
+    position: absolute;
+    bottom: 150px;
+     height: 0px;
+
+}
+  .ConnectPanel{
+    position: absolute; 
+    top: 560px;
+    left: -1px;
+    width: 710px;
+    /* height: 200px; */
+}
+  .row{
+        width:300px;
+    }
+    input {
+        margin: 10px 10px 10px 0;
+    }
+    input[placeholder] {
+        text-indent: 10px;
+    }
+    input[type='text'] {
+        width: 650px;
+    }
+ .Message{
+     width: 650px;
+     height: 160px;
+ }
+
+
+.ConnectIcon{
+    width: 60px;
+    height: 60px;
+    float: left; 
+    /* position: absolute; */
+    bottom: 0px;
+}
+
+.PorQueDiosR{
+    float: left;
+}
+.PortfolioPrimaryPanel {
+    left: 10px;
+    margin-top: 10px;
+    width: 710px;
+    height:2330px;
+    }
+    .PortfolioR, .PortfolioL{
+        width: 530px;
+        height: 400px;
+        margin:  0 35px 10px 0;
+    }
+        .ExamplePort{
+    width: 250px;
+    top: 180px;
+    }
+
+ .gucci {
+    width: 330px;
+    height: 250px;
+    left: -10px;
+     float: left; 
+    position: relative;
+    margin: 10px;
+    padding:10px 0 0 0;
+} 
+.footer{
+    bottom: -45px;
+    /*Change this back to 350 if you can figure out footer garbage */
+    width: 768px;
+}
+.ContactFooterAdjuster{
+    bottom: -20px;
+}
+.ContactPrimaryPanel {
+    height: 490px;
+    width: 710px;
+    margin-bottom: 20px;
+}
+.MoveConnectPanelUp{
+    top: 525px;
+    position: absolute;
+    height: 200px;
+    /* margin: 40px 0 20px 0; */
+}
+.PortfolioFooterAdjuster{
+ bottom: -1950px;
+}
+.MoveConnectPanelDown{
+top: 2350px;
+}
+.ExamplePort{
+    width: 530px;
+    top: 380px;
+    }
+}
 }
 
 @media screen and (max-width:640px){
@@ -332,7 +494,10 @@ textarea {
         background: white;
         
     }  
-   
+   .HeaderPanel{
+    top: -5px;
+    position: absolute;
+   }
     .NavLinks{
         left: 0px;
         position: relative;
@@ -373,6 +538,7 @@ textarea {
     position: relative;
     bottom: -30px;
   }
+  /*I have this but I dont actually see myself using it anywhere? */
   #ConnectHeaderText{
     text-align: left;
     position: absolute;
@@ -381,11 +547,11 @@ textarea {
 
 }
   .ConnectPanel{
-    position: relative; 
-    top: 500px;
+    position: absolute; 
+    top: 780px;
     left: -1px;
     width: 600px;
-    height: 200px;
+    /* height: 200px; */
 }
   .row{
         width:300px;
@@ -409,20 +575,22 @@ textarea {
     width: 60px;
     height: 60px;
     float: left; 
-    position: relative;
-    bottom: 225px;
+    /* position: absolute; */
+    bottom: 0px;
 }
 
 .PorQueDiosR{
     float: left;
 }
 .PortfolioPrimaryPanel {
-    left: 25px;
-    width: 300px;
-    height:1250px;
+    left: 10px;
+    margin-top: 10px;
+    width: 600px;
+    height:2330px;
     }
     .PortfolioR, .PortfolioL{
-        width: 250px;
+        width: 530px;
+        height: 400px;
         margin:  0 35px 10px 0;
     }
         .ExamplePort{
@@ -436,14 +604,36 @@ textarea {
     left: -10px;
      float: left; 
     position: relative;
-    margin: 10px
+    margin: 10px;
+    padding:10px 0 0 0;
 } 
 .footer{
-    bottom: -350px;
+    bottom: -380px;
+    /*Change this back to 350 if you can figure out footer garbage */
     width: 640px;
 }
-.ContactPrimaryPanel {
-    height: 595px;
-    width: 585px;
+.ContactFooterAdjuster{
+    bottom: -220px;
 }
+.ContactPrimaryPanel {
+    height: 600px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+.MoveConnectPanelUp{
+    top: 630px;
+    position: absolute;
+    height: 200px;
+    /* margin: 40px 0 20px 0; */
+}
+.PortfolioFooterAdjuster{
+ bottom: -1950px;
+}
+.MoveConnectPanelDown{
+top: 2350px;
+}
+.ExamplePort{
+    width: 530px;
+    top: 380px;
+    }
 }

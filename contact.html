@@ -9,25 +9,26 @@
 </head>
 
 <body>
-		<div class="wrapper">
-	
-	<div class="HeaderBar">
-		<h1 class="WhyDoesntTheStrongTagWork">
-					<p>Taylor Rodrigs</p>
-				</h1>
-		<div class="NavLinkHolder">
-			<div class="NavLinks & ExtraPadding">
-				<a style="color: #777777">Contact</a>
-			</div>
-			
-			<div class="NavLinks & BorderBuddy">
-				<a href="Portfolio.html" style="color: #777777">Portfolio</a>
-			</div>
-			<div class="NavLinks">
-				<a href="index.html" style="color: #777777">About</a>
+	<div class="wrapper">
+		<!-- Moved h1 into header bar due accomodate media screen -->
+		<div class="HeaderBar">
+				<h1 class="WhyDoesntTheStrongTagWork">
+						Taylor Rodrigs
+					</h1>    
+			<!-- Sticky Footer -->
+			<div class="NavLinkHolder"><!-- Holds the nav Links--> 
+				<div class="NavLinks">
+					<a href="contact.html" style="color: #777777">Contact</a>
+				</div>
+				<div class="NavLinks & BorderBuddy">
+					<a href="Portfolio.html" style="color: #777777">Portfolio</a>
+				</div>
+				
+				<div class="NavLinks">
+					<a style="color: #777777">About</a>
+				</div>
 			</div>
 		</div>
-	</div>
 	<div class="row">
 		<div class="ContactPrimaryPanel">
 			<div class="HeaderPanel">
@@ -59,9 +60,10 @@
 
 				</div>
 			</div>
-			<div class="ConnectPanel">
+			<div class="ConnectPanel & MoveConnectPanelUp">
+				<!--Created second class because connect panel is the bane of my existance atm -->
 				<P id="ConnectHeaderText">Connect with me</p>
-				<div class="PanelContent">
+				<div class="ConnectPanelContent">
 					<a href="https://github.com/" target="_blank">
 						<img class="ConnectIcon" src="images\Git128.png">
 					</a>
@@ -78,7 +80,7 @@
 		<div class="push"></div>
 	</div>
 	</div>
-	<footer class="Footer">
+	<footer class="footer & ContactFooterAdjuster">
 		<p class="FooterPadding">Copyright © 2017 Taylor Rodrigs</p>
 	</footer>
 </body>
