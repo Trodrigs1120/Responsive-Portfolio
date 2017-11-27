@@ -121,6 +121,7 @@ input[type="submit"] {
 textarea {
     margin-top: 10px;
     width: 590px;
+    height: 300px;
 }
 .row {
     width: 960px;
