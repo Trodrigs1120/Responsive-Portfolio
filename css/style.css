@@ -138,7 +138,7 @@ textarea {
 }
 .PortfolioPrimaryPanel {
     background: #ffffff;
-    height: 800px;
+    height: 820px;
     width: 648.02px;
     position: relative;
     left: 100px;
@@ -222,6 +222,9 @@ textarea {
 .centered , .WhyDoesntTheStrongTagWork {
     font-weight: bold;
 }
+.PortfolioFooterAdjuster{
+    bottom: -120px;
+   }
 @media screen and (max-width: 980px){
     .HeaderBar{
         position: static;
