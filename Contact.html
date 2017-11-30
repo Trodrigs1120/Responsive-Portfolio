@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Taylor Rodrigs Portfolio </title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- Moved h1 into header bar due accomodate media screen -->
+		<div class="HeaderBar">
+				<h1 class="WhyDoesntTheStrongTagWork">
+						Taylor Rodrigs
+					</h1>    
+			<!-- Sticky Footer -->
+			<div class="NavLinkHolder"><!-- Holds the nav Links--> 
+				<div class="NavLinks">
+					<a style="color: #777777">Contact</a>
+				</div>
+				<div class="NavLinks & BorderBuddy">
+					<a href="Portfolio.html" style="color: #777777">Portfolio</a>
+				</div>
+				
+				<div class="NavLinks">
+					<a href="Index.html"a style="color: #777777">About</a>
+				</div>
+			</div>
+		</div>
+	<div class="row">
+		<div class="ContactPrimaryPanel">
+			<div class="HeaderPanel">
+				<p class="HeadersTextPanel"> Contact </p>
+				<div class="PanelContent">
+					<div class="ContactForm">
+						<form action="/action_page.php" id="ContactMe">
+							<p class="WhyDoesntTheStrongTagWork">
+								Name
+							</p>
+							<input type="text" name="Name" placeholder="John Doe">
+							<br>
+							<P class="WhyDoesntTheStrongTagWork">
+								Email
+							</P>
+							<input type="text" name="Email" placeholder="PlaceHolder@gmail.com">
+							<br>
+
+							<P class="WhyDoesntTheStrongTagWork">
+								Message
+							</P>
+						<textarea class="Message" rows="10" name="Message" form="ContactMe"></textarea>
+							<br>
+							<br>
+							<input class="WhyDoesntTheStrongTagWork"type="submit" value="Submit">
+						</form>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="ConnectPanel & MoveConnectPanelUp">
+				<!--Created second class because connect panel is the bane of my existance atm -->
+				<P id="ConnectHeaderText">Connect with me</p>
+				<div class="ConnectPanelContent">
+					<a href="https://github.com/" target="_blank">
+						<img class="ConnectIcon" src="images\Git128.png">
+					</a>
+					<a href="https://stackoverflow.com/" target="_blank">
+						<img class="ConnectIcon" src="images\Stack128.png">
+					</a>
+
+					<a href="https://www.linkedin.com/">
+						<img class="ConnectIcon" src="images\Link128.png">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="push"></div>
+	</div>
+	</div>
+	<footer class="footer & ContactFooterAdjuster">
+		<p class="FooterPadding">Copyright © 2017 Taylor Rodrigs</p>
+	</footer>
+</body>
+
+</html>
